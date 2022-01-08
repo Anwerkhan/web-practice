@@ -300,58 +300,166 @@ a:hover {
   color: #c0ad00;
   text-decoration: underline;
 }
-
-@media screen and (max-width: 1200px) {
-  .page-header {
-    background-position: right -150px top 0px;
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .page-header{
+    background-position: right -360px top 0px;
+  }
+  .architech{
+    background-position: 83% 35%;
+  }
+  span.vliet.display-1 {
+    font-size: 10rem;
+  }
+  .specification .txt-form.lead {
+    width: 38rem;
+    padding-left: 0em;
+  }
+  .tour-close.btn-close {
+    left: 878px !important;
   }
 }
-
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 1200px) {
   .page-header {
-    background-position: right -350px top 0;
+    background-position: right -433px top 0px;
   }
-}
-@media screen and (max-width: 768px) {
+  .architech {
+    background-position: 92% 38%;
+  }
+} */
+@media (min-width: 768px) and (max-width: 1023px) {
   .page-header {
     background-position: right -600px top 0;
   }
-}
-@media screen and (max-width: 576px) {
-  .page-header {
-    background-position: right -750px top 0;
-    min-height: 760px;
-    padding-top: 0;
-  }
-}
-@media (min-width: 320px) and (max-width: 375px) {
-  .page-header {
-    background-position: right -750px top 0;
-    min-height: 760px;
-    padding-top: 0;
-  }
   span.vliet.display-1 {
-    font-size: 3.1rem;
-  }
-  /* .vliet {
-      font-size: 3.1rem;
-    } */
-  .exclusive .container {
-    background-size: 200%;
-    color: #fff;
+    font-size: 7rem;
   }
   .architech {
-    background-position: 50% 98%;
-    height: 1140px;
+    background-position: 90% 18%;
+    height: 1045px;
   }
   .specification .container.bg {
     background: linear-gradient(90deg, transparent 0%, #000 0);
+  }
+  .specification .txt-form.lead {
+    width: 30rem;
+    padding: 0;
+  }
+  .apartment__cta--tour {
+    bottom: 250px;
+  }
+  .apartment__cta--plan {
+    bottom: 180px;
+  }
+  .tour-close.btn-close {
+    left: 656px !important;
+  }
+  .exclusive .container {
+    background-position: 0 50%;
+    background-size: 150%;
+    color: #fff;
+    font-size: larger;
+  }
+
+  .finishing header {
+    background-position: 0px 65%;
+    background-size: 100% 132%;
+    color: #fff;
+  }
+  .offset-md-7 {
+    margin-left: 0%;
+  }
+  .col-md-6.text-md-left {
+    text-align: center;
+  }
+  .col-md-6.text-md-right.text-right.form-check {
+    text-align: center;
   }
   .leftline {
     top: 45px;
     left: 15px;
     width: 140%;
     padding-bottom: 50px;
+  }
+  span.quote {
+    font-size: 5.25rem;
+    line-height: 1;
+  }
+  /* .location {
+    padding-top: 0px !important;
+  }
+  .detail {
+    width: 100px;
+  }
+  .detail-text {
+    display: contents;
+  }
+  .card-body {
+    margin-top: 12px;
+  }
+  .owl-item.active {
+    max-width: 260.188px !important;
+  }
+  .owl-item {
+    max-width: 260.188px !important;
+  } */
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .page-header {
+    background-position: right -708px top 0;
+    min-height: 760px;
+    padding-top: 0;
+  }
+  span.vliet.display-1 {
+    font-size: 4.2rem;
+  }
+  .architech {
+    background-position: 50% 98%;
+    height: 1045px;
+  }
+  .specification .container.bg {
+    background: linear-gradient(90deg, transparent 0%, #000 0);
+  }
+  .specification .txt-form.lead {
+    width: 25.5rem;
+    padding: 0;
+  }
+  .apartment__cta--tour {
+    bottom: 250px;
+  }
+  .apartment__cta--plan {
+    bottom: 180px;
+  }
+  .tour-close.btn-close {
+    top: 54px !important;
+    left: 364px !important;
+  }
+  .exclusive .container {
+    background-position: 0 50%;
+    background-size: 150%;
+    color: #fff;
+    font-size: larger;
+  }
+
+  .finishing header {
+    background-position: 0px 65%;
+    background-size: 100% 132%;
+    color: #fff;
+  }
+  .col-md-6.text-md-left {
+    text-align: center;
+  }
+  .col-md-6.text-md-right.text-right.form-check {
+    text-align: center;
+  }
+  .leftline {
+    top: 45px;
+    left: 15px;
+    width: 140%;
+    padding-bottom: 50px;
+  }
+  span.quote {
+    font-size: 5.25rem;
+    line-height: 1;
   }
   .location {
     padding-top: 0px !important;
@@ -365,7 +473,79 @@ a:hover {
   .card-body {
     margin-top: 12px;
   }
-  .col-md-6.text-md-right.text-right.form-check {
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  .architech {
+    height: 1125px;
+  }
+  span.vliet.display-1 {
+    font-size: 3.5rem;
+  }
+  .specification .txt-form.lead {
+    width: 22rem;
+    padding: 0;
+  }
+  .tour-close.btn-close {
+    top: 54px !important;
+    left: 314px !important;
+  }
+  .foot{
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .page-header {
+    background-position: right -750px top 0;
+    min-height: 760px;
+    padding-top: 0;
+  }
+  span.vliet.display-1 {
+    font-size: 3.1rem;
+  }
+  .exclusive .container {
+    background-size: 200%;
+    color: #fff;
+  }
+  .architech {
+    background-position: 50% 98%;
+    height: 1140px;
+  }
+  .specification .container.bg {
+    background: linear-gradient(90deg, transparent 0%, #000 0);
+  }
+  .specification .txt-form.lead {
+    width: 19rem;
+    padding: 0;
+  }
+  .tour-close.btn-close {
+    top: 54px !important;
+    left: 269px !important;
+  }
+  .leftline {
+    top: 45px;
+    left: 15px;
+    width: 140%;
+    padding-bottom: 50px;
+  }
+  .apartment__cta--tour {
+    bottom: 186px;
+  }
+  .apartment__cta--plan {
+    bottom: 139px;
+  }
+  .location {
+    padding-top: 0px !important;
+  }
+  .detail {
+    width: 100px;
+  }
+  .detail-text {
+    display: contents;
+  }
+  .card-body {
+    margin-top: 12px;
+  }
+  .foot{
     text-align: center;
   }
 }
