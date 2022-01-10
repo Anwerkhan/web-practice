@@ -212,15 +212,6 @@ span.quote {
 .gmap_iframe {
   height: 400px !important;
 }
-.container-wrapper.container-wrapper--right .container {
-  margin-right: 0;
-}
-@media (min-width: 1200px) {
-  .container-wrapper .container {
-    max-width: none;
-    width: calc((100% - 1175px) / 2 + 1175px);
-  }
-}
 .apartment__cta--tour {
   bottom: 184px;
 }
